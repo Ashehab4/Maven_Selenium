@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="34649" started-at="2022-09-11T08:23:10 AST" finished-at="2022-09-11T08:23:45 AST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="34649" started-at="2022-09-11T08:23:10 AST" finished-at="2022-09-11T08:23:45 AST">
+      <class name="TMKN.Tamkeen.SimpliLearnLogin">
+        <test-method status="PASS" signature="DataSetup()[pri:0, instance:TMKN.Tamkeen.SimpliLearnLogin@491cc5c9]" name="DataSetup" is-config="true" duration-ms="355" started-at="2022-09-11T08:23:10 AST" finished-at="2022-09-11T08:23:11 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataSetup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TMKN.Tamkeen.SimpliLearnLogin@491cc5c9]" name="setUp" is-config="true" duration-ms="4735" started-at="2022-09-11T08:23:11 AST" finished-at="2022-09-11T08:23:15 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Test1()[pri:0, instance:TMKN.Tamkeen.SimpliLearnLogin@491cc5c9]" name="Test1" duration-ms="12356" started-at="2022-09-11T08:23:15 AST" finished-at="2022-09-11T08:23:28 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TMKN.Tamkeen.SimpliLearnLogin@491cc5c9]" name="tearDown" is-config="true" duration-ms="178" started-at="2022-09-11T08:23:28 AST" finished-at="2022-09-11T08:23:28 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TMKN.Tamkeen.SimpliLearnLogin@491cc5c9]" name="setUp" is-config="true" duration-ms="3733" started-at="2022-09-11T08:23:28 AST" finished-at="2022-09-11T08:23:32 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:TMKN.Tamkeen.SimpliLearnLogin@491cc5c9]" name="test3" duration-ms="13107" started-at="2022-09-11T08:23:32 AST" finished-at="2022-09-11T08:23:45 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TMKN.Tamkeen.SimpliLearnLogin@491cc5c9]" name="tearDown" is-config="true" duration-ms="151" started-at="2022-09-11T08:23:45 AST" finished-at="2022-09-11T08:23:45 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="Dataclean()[pri:0, instance:TMKN.Tamkeen.SimpliLearnLogin@491cc5c9]" name="Dataclean" is-config="true" duration-ms="0" started-at="2022-09-11T08:23:45 AST" finished-at="2022-09-11T08:23:45 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dataclean -->
+      </class> <!-- TMKN.Tamkeen.SimpliLearnLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
