@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -105,6 +105,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TMKN.Tamkeen.SimpliLearnLogin" hash-for-method="Test1">Test1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TMKN.Tamkeen.SimpliLearnLogin" hash-for-method="login2(test@test.com, Test@123)">login2(test@test.com, Test@123)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -135,6 +140,14 @@
                   <a name="Test1">
                   </a> <!-- Test1 -->
                   <span class="method-name">Test1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login2(test@test.com, Test@123)">
+                  </a> <!-- login2(test@test.com, Test@123) -->
+                  <span class="method-name">login2</span>
+                  <span class="parameters">(test@test.com, Test@123)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -200,20 +213,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'test3')
+data.setCell(0, 1, 'Test1')
 data.setCell(0, 2, 'TMKN.Tamkeen.SimpliLearnLogin')
-data.setCell(0, 3, 13107);
+data.setCell(0, 3, 117548);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'Test1')
+data.setCell(1, 1, 'test3')
 data.setCell(1, 2, 'TMKN.Tamkeen.SimpliLearnLogin')
-data.setCell(1, 3, 12356);
+data.setCell(1, 3, 12307);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'login2')
+data.setCell(2, 2, 'TMKN.Tamkeen.SimpliLearnLogin')
+data.setCell(2, 3, 11346);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 25 seconds</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -228,16 +245,9 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">1 ignored method</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">TMKN.Tamkeen.SimpliLearnLogin</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">login2</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Suite" class="panel">
@@ -252,32 +262,44 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">369 ms</span>
+                <span class="method-name">setUp(public void TMKN.Tamkeen.SimpliLearnLogin.Test1() throws java.lang.InterruptedException)</span>
+                <span class="method-start">535 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Test1</span>
-                <span class="method-start">5105 ms</span>
+                <span class="method-start">5427 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">17470 ms</span>
+                <span class="method-start">122977 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">17649 ms</span>
+                <span class="method-name">setUp(public void TMKN.Tamkeen.SimpliLearnLogin.login2(java.lang.String,java.lang.String) throws java.lang...)</span>
+                <span class="method-start">125425 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">login2(test@test.com, Test@123)</span>
+                <span class="method-start">129160 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">140510 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void TMKN.Tamkeen.SimpliLearnLogin.test3() throws java.lang.InterruptedException)</span>
+                <span class="method-start">140610 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test3</span>
-                <span class="method-start">21382 ms</span>
+                <span class="method-start">144451 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">34493 ms</span>
+                <span class="method-start">156759 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">Dataclean</span>
-                <span class="method-start">34646 ms</span>
+                <span class="method-start">159197 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
